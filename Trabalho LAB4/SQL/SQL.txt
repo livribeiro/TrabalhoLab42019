@@ -1,0 +1,9 @@
+SELECT * FROM produto ORDER BY idproduto ASC
+
+SELECT * FROM departamento
+
+SELECT * FROM ocorrencia WHERE nomecliente = '"+ model + "' ORDER BY protocolo DESC
+
+SELECT * FROM observacao WHERE titulo ='" + titulo + "' and departamento = '" + departamento + "' ORDER BY idmensagem ASC
+
+SELECT * FROM ocorrencia WHERE departamento ILIKE '"+ model +"' ORDER BY protocolo DESC
